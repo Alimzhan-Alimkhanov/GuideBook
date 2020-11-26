@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed May 22 01:01:03 ALMT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Projects\\GuideBook\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.path=semeikz.html
+0.set=ASSET
+count=1

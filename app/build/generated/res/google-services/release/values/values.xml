@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">630381575821-nhv8q23hb9ug5ntqiubdbnsk35timhrj.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://guidebook-cf41f.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">630381575821</string>
+    <string name="google_api_key" translatable="false">AIzaSyDKsURQMOAJROumj8l53a3z54BVF9quvQU</string>
+    <string name="google_app_id" translatable="false">1:630381575821:android:358e60bc33804c13</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDKsURQMOAJROumj8l53a3z54BVF9quvQU</string>
+    <string name="google_storage_bucket" translatable="false">guidebook-cf41f.appspot.com</string>
+    <string name="project_id" translatable="false">guidebook-cf41f</string>
+</resources>

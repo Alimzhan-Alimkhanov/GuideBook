@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "630381575821",
+    "firebase_url": "https://guidebook-cf41f.firebaseio.com",
+    "project_id": "guidebook-cf41f",
+    "storage_bucket": "guidebook-cf41f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630381575821:android:358e60bc33804c13",
+        "android_client_info": {
+          "package_name": "com.alim.guidebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630381575821-ki5q7b3ta9bu6mmkta11vessbl5gdn7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alim.guidebook",
+            "certificate_hash": "5f80651981e0be691c6766919dd75a7f2b08f92a"
+          }
+        },
+        {
+          "client_id": "630381575821-nhv8q23hb9ug5ntqiubdbnsk35timhrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKsURQMOAJROumj8l53a3z54BVF9quvQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630381575821-nhv8q23hb9ug5ntqiubdbnsk35timhrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

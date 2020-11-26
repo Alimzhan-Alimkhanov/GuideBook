@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Fragment_Find">
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/ed_find"
+        android:hint=""
+        android:shadowColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/White"
+        android:textSize="15sp"
+        android:text="Фильтр"
+        android:background="@drawable/btn_round"
+        android:id="@+id/btn_filter"
+        android:layout_below="@id/ed_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/White"
+        android:textSize="15sp"
+        android:text="ТАБУ"
+        android:background="@drawable/btn_round"
+        android:id="@+id/btn_find"
+        android:layout_below="@id/btn_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_below="@id/btn_find"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="Түкте табылмады"
+            android:id="@+id/txnotfind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        android:layout_marginTop="15dp"
+        android:id="@+id/recview_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    </FrameLayout>
+
+</RelativeLayout>

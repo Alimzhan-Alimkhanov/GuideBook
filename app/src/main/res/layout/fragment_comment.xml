@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/recyclerview"
+       app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/txv_message"
+        android:textSize="30sp"
+        android:visibility="gone"
+        android:text="Пікір әзірге жоқ"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="top|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_form"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/btn_round"
+        android:textColor="@color/White"
+        android:text="Пікір Қалдыру" />
+
+
+</FrameLayout>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">GuideBook</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="Abai_info">ШКО</string>
+
+    <string name="Kz_fragment_OBLST">Аймақтар</string>
+    <string name="Ru_fragment_OBLST">Районы</string>
+
+    <string name="Kz_fragment_culher">Мәдени-Мұралар</string>
+    <string name="Ru_fragment_culher">Культурные Объекты</string>
+    <string name="Kz_fragment_finder">Iздеу</string>
+    <string name="Ru_fragment_finder">Поиск</string>
+    <string name="fragment_map">Карта</string>
+    <string name="Kz_fragment_tour">Турлар</string>
+    <string name="Ru_fragment_tour">Туры</string>
+    <string name="Kz_fragment_setting">Параметрлер</string>
+    <string name="Ru_fragment_setting">Настройки</string>
+    <string name="Kz_fragment_infoapp">Бағдарлама Туралы</string>
+    <string name="Ru_fragment_infoapp">О приложении</string>
+    <string name="Kz_exit">Шығу</string>
+    <string name="Ru_exit">Выйти</string>
+
+
+    <string name="Kz_VKO">ШҚО</string>
+    <string name="Ru_VKO">ВКО</string>
+
+
+    <string name="Abai">Абайдың мұражайы</string>
+    <string name="Dostoevsky">Достоевскидың мұражайы</string>
+
+    <string name="kz_link_oblst_info_semei">https://kk.wikipedia.org/wiki/Семей</string>
+    <string name="ru_link_oblst_info_semei">https://ru.wikipedia.org/wiki/Семей</string>
+    <string name="kz_link_oblst_info_katon">https://kk.wikipedia.org/wiki/Катонқарағай</string>
+    <string name="ru_link_oblst_info_katon">https://ru.wikipedia.org/wiki/Катон-Карагай</string>
+    <string name="kz_link_oblst_info_kurshum">https://kk.wikipedia.org/wiki/Күршім_ауданы</string>
+    <string name="ru_link_oblst_info_kurshum">https://ru.wikipedia.org/wiki/Куршим</string>
+    <string name="kz_link_oblst_info_tarbagatai">https://kk.wikipedia.org/wiki/Тарбағатай_ауданы</string>
+    <string name="ru_link_oblst_info_tarbagatai">https://ru.wikipedia.org/wiki/Тарбагатайский_район_(Восточно-Казахстанская_область)</string>
+
+    <string name="Kz_btn_list_attract">Көрікті жерлердін тізімі</string>
+    <string name="Ru_btn_list_attract">Список достопримечательностей</string>
+
+    <string name="kz_tabs_info">Ақпарат"</string>
+    <string name="kz_tabs_comment">Пікір</string>
+
+    <string name="tabs_map">Карта</string>
+
+    <string name="ru_tabs_info">Информаця</string>
+    <string name="ru_tabs_comment">Комменты</string>
+
+    <string name="Kz_page_desctipion">Сиппатама</string>
+    <string name="Kz_page_time">Жұмыс Уақыты"</string>
+    <string name="Kz_page_Street">Мекен-Жайы</string>
+    <string name="Kz_page_cost">Бару-Бағасы"</string>
+    <string name="Kz_page_contactnumber">Байланыс телефоны</string>
+
+    <string name="Ru_page_desctipion">Описание</string>
+    <string name="Ru_page_time">Время работы</string>
+    <string name="Ru_page_Street">Адрес</string>
+    <string name="Ru_page_cost">Цена за посещения</string>
+    <string name="Ru_page_contactnumber">Контактные данные</string>
+
+
+    <string name="Kz_btn_direct">Бағыт</string>
+    <string name="Ru_btn_direct">Маршрут</string>
+
+    <string name="Kz_txv_notcomment">Пікір әзірге жоқ</string>
+    <string name="Ru_txv_notcomment">Пока нету комментариев</string>
+
+    <string name="Kz_btn_comment">Пікір Қалдыру</string>
+    <string name="Ru_btn_comment">Оставить коментарий</string>
+
+    <string name="Kz_txv_comment_title">ПІКІР</string>
+    <string name="Ru_txv_comment_title">КОМЕНТАРИЙ</string>
+    <string name="Kz_ed_comment_fio">Аты-жөніңіз</string>
+    <string name="Ru_ed_comment_fio">Ваше имя</string>
+    <string name="Kz_ed_comment">Пікір</string>
+    <string name="Ru_ed_comment">Коментарий</string>
+    <string name="Kz_btn_comment_push">Жіберу</string>
+    <string name="Ru_btn_comment_push">Отправить</string>
+    
+    <string name="Kz_btn_show">КӨРСЕТУ</string>
+    <string name="Ru_btn_show">ПОКАЗАТЬ</string>
+
+    <string name="Kz_btn_find">ТАБУ</string>
+    <string name="Ru_btn_find">НАЙТИ</string>
+
+    <string name="Kz_txv_filter_oblst">Аймақ</string>
+    <string name="Ru_txv_filter_oblst">Регион</string>
+
+    <string name="Kz_btn_link">Толығрақ</string>
+    <string name="Ru_btn_link">Подробна</string>
+    <string name="Kz_txv_cost">Баға:</string>
+    <string name="Ru_txv_cost">Цена:</string>
+    <string name="Kz_txv_time">Уақыт:</string>
+    <string name="Ru_txv_time">Время:</string>
+
+    <string name="Kz_info_app_1">Бұл бағдарлама Шығыс Қазастан Облысының көрікті жерлерімен таныстыруға арналған</string>
+    <string name="Ru_info_app_1">Данная программма предназначена для ознакомления с достопримечательностями Восточной Казахстанской области</string>
+    <string name="Kz_version">Бағдарламаның нұсқасы: 1.0</string>
+    <string name="Ru_version">Версия программы: 1.0</string>
+
+    <string name="Ru_Language_Name_kz">Казахский</string>
+    <string name="Ru_Language_Name_ru">Русский</string>
+    <string name="Kz_Language_Name_kz">Қазақша</string>
+    <string name="KZ_Language_Name_ru">Орысша</string>
+    <string name="Ru_Language_text_name">Язык</string>
+    <string name="Kz_Language_text_name">Тіл</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

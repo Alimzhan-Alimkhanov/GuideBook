@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_fragment_OBLST"
+            android:icon="@drawable/ic_menu_oblst"
+            android:title="@string/Kz_fragment_OBLST" />
+        <item
+            android:id="@+id/id_fragment_CulHer"
+            android:icon="@drawable/ic_menu_culher"
+            android:title="@string/Kz_fragment_culher" />
+        <item
+            android:id="@+id/id_fragment_FinDer"
+            android:icon="@drawable/ic_menu_finder"
+            android:title="@string/Kz_fragment_finder" />
+        <item
+            android:id="@+id/id_fragment_Map"
+            android:icon="@drawable/map_icon"
+            android:title="@string/fragment_map" />
+        <item
+            android:id="@+id/id_fragment_tur"
+            android:icon="@drawable/ic_menu_infoapp"
+            android:title="Турлар" />
+        <item
+            android:id="@+id/id_fragment_Setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/Kz_fragment_setting" />
+        <item
+            android:id="@+id/id_fragment_InfoApp"
+            android:icon="@drawable/ic_menu_infoapp"
+            android:title="@string/Kz_fragment_infoapp" />
+        <item
+            android:id="@+id/id_exit"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/Kz_exit" />
+
+
+    </group>
+
+
+
+</menu>

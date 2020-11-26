@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/txv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="ЭКСКУРСИЯ «ЭПОХА ТЕХНОЛОГИЙ» В РАМКАХ ОСУЩЕСТВЛЕНИЯ ПРОГРАММЫ «ПОЗНАЙ СВОЮ ЗЕМЛЮ»"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+
+
+            <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/txv_title"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/txv_cost1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Цена:"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_alignBaseline="@id/txv_cost1"
+                android:layout_toRightOf="@id/txv_cost1"
+                android:id="@+id/txv_cost2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="от 1 444 333"
+                android:textColor="@color/colorPrimary"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/txv_cost1"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/txv_time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Время:"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/txv_time1"
+                android:layout_alignBaseline="@id/txv_time1"
+                android:id="@+id/txv_time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 дня"
+                android:textColor="@color/colorPrimary"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+
+
+
+            <Button
+                android:background="@drawable/btn_round"
+                android:text="Подробна"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txv_title"
+                android:id="@+id/btn_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
